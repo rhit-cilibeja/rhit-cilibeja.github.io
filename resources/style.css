@@ -5,11 +5,40 @@
 
 body {
 	font-family: "Rubik", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-align: center;
+}
+
+li {
+	text-align: left;
+}
+
+.navTools {
+	padding: 0.2em;
+	background-color: #800000;
 }
 
 header {
-	text-align: center;
 	/* https://www.w3schools.com/howto/howto_css_sticky_element.asp */
 	position: sticky;
 	top: 0;
+}
+
+header a {
+	padding: 0.4em;
+	font-size: 30px;
+	margin: auto;
+}
+
+.navTools a:link, .navTools a:visited {
+	color: white;
+}
+
+.navTools a:hover {
+	background-color: white;
+	color: #800000;
+}
+
+footer {
+	text-align: left;
+	font-size: 20px;
 }
