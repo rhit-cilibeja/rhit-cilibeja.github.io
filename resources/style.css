@@ -9,6 +9,7 @@ body {
   	font-style: normal;
 	text-align: center;
 	background-image: url("../assets/rose-bg.jpeg");
+	background-attachment: fixed;
 }
 
 li {
@@ -20,6 +21,7 @@ main {
 	padding: 4em;
 	max-width: fit-content;
 	margin: auto;
+	height: 65vh;
 }
 
 .navTools {
@@ -39,8 +41,6 @@ header a {
 	margin: auto;
 }
 
-
-
 .navTools a:link, .navTools a:visited {
 	color: white;
 }
@@ -57,4 +57,12 @@ footer {
 
 footer a {
 	padding: 0.2em;
+}
+
+td {
+	padding: 2em;
+}
+
+.navTools li::marker {
+	color:white;
 }

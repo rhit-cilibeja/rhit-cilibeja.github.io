@@ -6,7 +6,7 @@ window.addEventListener("load", (e) => {
 function setupHeader() {
 	let header = document.querySelector("header");
 	header.className = "navTools";
-	header.innerHTML = "<nav><a href = 'index.html'>Home</a><a href = 'resume.html'>Resume</a><a href = 'portfolio.html'>Projects</a></nav>";
+	header.innerHTML = "<nav><a href = 'index.html'>Home</a><a href = 'resume.html'>Résumé</a><a href = 'portfolio.html'>Projects</a></nav>";
 
 	//https://stackoverflow.com/questions/16611497/how-can-i-get-the-name-of-an-html-page-in-javascript
 	let path = window.location.pathname;
