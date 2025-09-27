@@ -10,6 +10,8 @@ body {
 	text-align: center;
 	background-image: url("../assets/rose-bg.jpeg");
 	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 li {
@@ -21,7 +23,7 @@ main {
 	padding: 4em;
 	max-width: fit-content;
 	margin: auto;
-	height: 65vh;
+	min-height: 65vh;
 }
 
 .navTools {
@@ -39,6 +41,8 @@ header {
 header a {
 	padding: 0.4em;
 	margin: auto;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .navTools a:link, .navTools a:visited {
@@ -65,4 +69,8 @@ td {
 
 .navTools li::marker {
 	color:white;
+}
+
+.right-align {
+	text-align: right;
 }
