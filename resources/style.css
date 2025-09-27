@@ -39,11 +39,13 @@ header a {
 	margin: auto;
 }
 
+
+
 .navTools a:link, .navTools a:visited {
 	color: white;
 }
 
-.navTools a:hover {
+.navTools a:hover, #currentPage {
 	background-color: white;
 	color: #800000;
 }
