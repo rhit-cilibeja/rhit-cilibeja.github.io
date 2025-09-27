@@ -71,6 +71,10 @@ td {
 	color:white;
 }
 
-.right-align {
-	text-align: right;
+td li {
+	padding: 1em;
+}
+
+#photo {
+	text-align: center;
 }
